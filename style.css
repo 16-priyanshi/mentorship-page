@@ -1,6 +1,7 @@
 body{
-    background-image: url('bg-2.jpg');
+    background-image: url('bg.png');
     background-position: center;
+    overflow-x: hidden;
     
 }
 a{
@@ -10,7 +11,7 @@ a{
    color:aliceblue;
    font-size: xx-large;
    font-weight: bold;
-   font-family: 'Courier New', Courier, monospace;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    text-transform: uppercase;
    letter-spacing: 1.5px;
    padding: 5%;
@@ -24,13 +25,20 @@ a{
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
+    margin: 10px;
+    padding: 2.5%;
    }
 
 .card-title{
     font-family:Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
     font-weight: bold;
 }
+
+.card-text{
+    color:rgb(61, 61, 61);
+}
+
+
 .nav-item{
     text-align: center;
     margin-left: 2em;
@@ -60,6 +68,10 @@ a{
 }
 .mentor{
     margin: 0 10%;
+}
+
+#test{
+    margin:10px;
 }
 
 
