@@ -1,5 +1,6 @@
 body{
     background-image: url('bg.png');
+    
     overflow-x: hidden;
     
 }
@@ -59,14 +60,15 @@ a{
 }
 
 .container{
-    margin: 5px;
+    margin: 0 auto;
 }
 
 .btn btn-primary{
     margin:2px;
 }
 .mentor{
-    margin: 0 10%;
+    margin: 0 auto;
+    align-items: center;
 }
 
 #test{
